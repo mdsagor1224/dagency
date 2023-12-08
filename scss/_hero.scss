@@ -1,0 +1,62 @@
+/*  Hero Content*/
+
+.hero-area{
+    padding-top: 100px;
+
+
+}
+
+.hero-text{
+    h1{
+        color: $primaryColor;
+        font-size: 64px;
+        font-weight: 700;
+    }
+    p{
+        font-weight: 400;
+        text-transform: capitalize;
+        color: $primaryColor;
+        font-size: 18px;
+    }
+
+}
+
+/*Button */
+
+.hero-text{
+    .bt-primary{
+        background: $acentColor;
+        display: inline-block;
+        padding: 10px 15px;
+        border-radius: 8px;
+        margin-top: 40px;
+    }
+    a{
+        color: $whiteColor;
+        text-transform: uppercase;
+    }
+}
+
+
+
+/*  Hero Image*/
+.hero-img{
+    img{
+        float: right;
+    }
+}
+
+
+
+
+/* responsive */
+
+// @media screen and (max-width:768px) {
+//     .hero-text{
+//         h2{
+//             font-size:40px;
+//             text-align: center;
+//         }
+//     }
+// }
+

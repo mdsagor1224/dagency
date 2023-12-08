@@ -1,0 +1,43 @@
+.footrer-bg{
+    background: $bg-color;
+}
+
+.single-footer-widget{
+    h2{
+        color: $primaryColor;
+        font-size: 18px;
+        font-weight: 700;
+        text-transform: capitalize;
+    }
+    p{
+        font-size: 16px;
+        color: $primaryColor;
+        font-weight: 300;
+        text-transform: capitalize;
+    }
+}
+
+
+.footer-menu{
+    ul{
+        margin: 0;
+        padding: 0;
+    }
+    li{
+        list-style: none;
+        padding-top: 15px;
+    }
+    a{
+        color: $primaryColor;
+        font-size: 16px;
+        font-weight: 300;
+        text-transform: capitalize;
+    }
+}
+
+.copyright-text{
+    p{
+        color: $primaryColor;
+        font-weight: 300;
+    }
+}

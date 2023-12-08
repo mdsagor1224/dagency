@@ -1,0 +1,17 @@
+.company-logo{
+    .subtitle{
+        h4{
+            font-size: 16px;
+            color: $text-color;
+            font-weight: 300;
+            text-transform: capitalize;
+        }
+    }
+    .brand-name {
+        display: flex;
+        justify-content: space-between;
+        background: $bg-color;
+        padding: 10px 20px;
+    }
+}
+

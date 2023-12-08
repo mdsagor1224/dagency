@@ -1,0 +1,30 @@
+.customer-bg{
+    background: $bg-color;
+    border-radius: 20px;
+}
+
+.customer-content{
+    h2{
+        color: $primaryColor;
+        font-size: 48px;
+        font-weight: 700;
+    }
+    p{
+        color: $primaryColor;
+    }
+}
+
+.bt-primary{
+    background: $acentColor;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+.bt-primary{
+    a{
+        color: $whiteColor;
+        font-weight: 600;
+        text-transform: uppercase;
+        
+    }
+}

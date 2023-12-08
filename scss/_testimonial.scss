@@ -1,0 +1,46 @@
+.testimonial-contents{
+    .subtitle{
+        p{
+            color: $secondaryColor;
+        }
+    }
+    h2{
+        color: $secondaryColor;
+        font-size: 48px;
+        font-weight: 700;
+        text-transform: capitalize;
+        font-style: normal;
+    }
+}
+
+
+.testimonial-img{
+    img{
+        padding-top: 30px;
+    }
+}
+
+
+.testimonial-bg{
+    background: $bg-color;
+    border-radius: 20px;
+}
+
+.single-testimonial-section{
+    .t-title{
+        h3{
+            font-size: 18px;
+            text-transform: capitalize;
+            color: $primaryColor;
+            padding-top: 10px;
+        }
+        p{
+            color: $primaryColor;
+            font-size: 14px;
+            font-weight: 300;
+            font-style: normal;
+            text-transform: capitalize;
+            padding: 30px;
+        }
+    }
+}

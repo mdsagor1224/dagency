@@ -1,0 +1,22 @@
+.des-team{
+    .text-content{
+        h2{
+            color: $secondaryColor;
+            font-size: 48px;
+            font-weight: 700;
+            text-transform: capitalize;
+        }
+        p{
+            font-size: 16px;
+            font-weight: 400;
+            color: $secondaryColor;
+            text-transform: capitalize;
+        }
+    }
+}
+
+.dev-team{
+    img{
+        float: right;
+    }
+}

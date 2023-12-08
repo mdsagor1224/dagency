@@ -1,0 +1,54 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+$fontPrimary : 'Inter', sans-serif;
+
+body{
+    font-family: $fontPrimary;
+    font-size: 16px;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5{
+    font-family: $fontPrimary;
+}
+
+$primaryColor: #272D38;
+$secondaryColor: #272D38;
+$acentColor: #8EADD5;
+$whiteColor: #fff;
+$bg-color: #F6F6F6;
+$text-color: #667085;
+
+.pt-80{
+    padding-top: 80px;
+}
+
+.pt-40{
+    padding-top: 40px;
+}
+
+.pb-120{
+    padding-bottom: 120px;
+}
+
+.pt-100{
+    padding-top: 100px;
+}
